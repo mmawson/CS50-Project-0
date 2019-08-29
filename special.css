@@ -1,0 +1,31 @@
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Times;
+	mso-hansi-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+	a:link, span.MsoHyperlink
+		{color:blue;
+		text-decoration:underline;
+		text-underline:single;}
+	a:visited, span.MsoHyperlinkFollowed
+		{mso-style-noshow:yes;
+		color:purple;
+		text-decoration:underline;
+		text-underline:single;}
