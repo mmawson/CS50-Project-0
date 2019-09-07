@@ -5,8 +5,19 @@
 	mso-generic-font-family:auto;
 	mso-font-pitch:variable;
 	mso-font-signature:3 0 0 0 1 0;}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;}  /* I copied this from the @media tutorial */
+	}
+.foobar
+	{background-color: blue;
+	color: blue;}
+#nonsense
+	 {font-size:20.0pt;}
 h4
-	{mso-style-link:"Heading 4 Char";
+	{
+	color: coral;
+	mso-style-link:"Heading 4 Char";
 	margin:0in;
 	margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
@@ -20,6 +31,7 @@ h4
 	mso-bidi-theme-font:minor-bidi;
 	font-weight:bold;
 	mso-bidi-font-weight:normal;}
+
 	a:link, span.MsoHyperlink
 		{color:blue;
 		text-decoration:underline;
@@ -29,3 +41,12 @@ h4
 		color:purple;
 		text-decoration:underline;
 		text-underline:single;}
+	a:hover
+		{background-color: grey;}
+	a:active
+		{color: white;}
+	a::before
+			{content: "<";}
+	a::after
+		{content: ">";}
+}
