@@ -1,0 +1,14 @@
+body img, body h1 {
+  color: #00008B;
+}
+
+body h1 {
+  border: 1px solid #c3c3c3;
+  font-family: "Times New Roman", Times, serif;
+}
+body img {
+  width: 80%;
+  display: block;
+}
+
+/*# sourceMappingURL=JohnCarpenter.css.map */

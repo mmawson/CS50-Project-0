@@ -1,0 +1,19 @@
+$imgSize: 80%;
+
+%inheritedColor {
+  color: #00008B;
+}
+
+body {
+  h1 {
+    border: 1px solid #c3c3c3;
+    font-family: "Times New Roman", Times, serif;
+    @extend %inheritedColor
+  }
+
+  img {
+    width: $imgSize;
+    display: block;
+    @extend %inheritedColor // just for fun
+  }
+}
